@@ -16,9 +16,4 @@ class RoadBike < Bike
   def panniers
     @panniers
   end
-
-  def daily_rate
-    @daily_rate
-  end
-
 end

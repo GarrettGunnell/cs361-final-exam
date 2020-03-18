@@ -17,17 +17,4 @@ class BmxBike < Bike
   def tail_pack
     @tail_pack
   end
-
-  def weekly_rate
-    @weekly_price
-  end
-
-  def daily_rate
-    @daily_price
-  end
-
-  def hourly_rate
-    @hourly_price
-  end
-
 end

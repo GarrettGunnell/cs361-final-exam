@@ -18,10 +18,6 @@ class Bike
     raise "adjust method not implemented in child class"
   end
 
-  def tail_pack
-    @tail_pack
-  end
-
   def weekly_rate
     @weekly_price
   end
