@@ -4,9 +4,9 @@ require_relative 'bike'
 class BmxBike < Bike
 
   def initialize
-    @weekly_price = 70
-    @daily_price = 20
-    @hourly_price = 5
+    @weekly_rate = 70
+    @daily_rate = 20
+    @hourly_rate = 5
   end
 
   def adjust
