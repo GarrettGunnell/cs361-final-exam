@@ -19,15 +19,15 @@ class Bike
   end
 
   def weekly_rate
-    @weekly_price
+    @weekly_rate
   end
 
   def daily_rate
-    @daily_price
+    @daily_rate
   end
 
   def hourly_rate
-    @hourly_price
+    @hourly_rate
   end
 
 end
