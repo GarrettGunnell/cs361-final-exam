@@ -9,10 +9,6 @@ class Bike
     puts "Cleaning..."
   end
 
-  def adjust_seat
-    puts "Adjusting seat..."
-  end
-
   def prepare
     clean
     adjust
