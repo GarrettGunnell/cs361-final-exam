@@ -6,12 +6,21 @@
 require_relative 'bmx_bike'
 require_relative 'road_bike'
 require_relative 'mountain_bike'
+require_relative 'roll_pack'
+require_relative 'tail_pack'
+require_relative 'pannier'
 
 bikes = [
   BmxBike.new,
   RoadBike.new,
   MountainBike.new,
   MountainBike.new
+]
+
+luggage = [
+  TailPack.new,
+  Pannier.new,
+  RollPack.new
 ]
 
 total_price = 0

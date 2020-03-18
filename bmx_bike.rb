@@ -4,7 +4,6 @@ require_relative 'bike'
 class BmxBike < Bike
 
   def initialize
-    @tail_pack = TailPack.new
     @weekly_price = 70
     @daily_price = 20
     @hourly_price = 5
@@ -12,9 +11,5 @@ class BmxBike < Bike
 
   def adjust
     puts "Adjusting seat..."
-  end
-
-  def tail_pack
-    @tail_pack
   end
 end
