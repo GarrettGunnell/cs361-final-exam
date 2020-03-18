@@ -1,10 +1,10 @@
 class Luggage
     
-    def initialize
-        raise "Cannot instantiate abstract class"
-    end
+  def initialize
+    raise "Cannot instantiate abstract class"
+  end
 
-    def price
-        @price
-    end
+  def price
+    @price
+  end
 end

@@ -1,10 +1,8 @@
-class TailPack
+require_relative 'luggage'
+
+class TailPack < Luggage
 
   def initialize
     @price = 2
-  end
-
-  def price
-    @price
   end
 end

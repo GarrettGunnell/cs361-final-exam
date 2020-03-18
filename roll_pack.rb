@@ -1,10 +1,8 @@
-class RollPack
+require_relative 'luggage'
+
+class RollPack < Luggage
 
   def initialize
     @price = 1 
-  end
-
-  def price
-    @price
   end
 end
