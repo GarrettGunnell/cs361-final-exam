@@ -9,11 +9,7 @@ class RoadBike < Bike
     @daily_rate = 15
   end
 
-  def clean
-    puts "Cleaning..."
-  end
-
-  def lubricate_gears
+  def adjust
     puts "Lubricating gears..."
   end
 

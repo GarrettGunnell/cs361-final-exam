@@ -10,11 +10,7 @@ class BmxBike < Bike
     @hourly_price = 5
   end
 
-  def clean
-    puts "Cleaning..."
-  end
-
-  def adjust_seat
+  def adjust
     puts "Adjusting seat..."
   end
 
